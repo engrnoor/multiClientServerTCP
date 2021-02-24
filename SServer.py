@@ -4,6 +4,8 @@ import time
 
 
 def handle(conn_addr):
+# put what do you want to do when the connection is established with server here
+
   print("Someone Connected")
   print(conn_addr[-1])
   time.sleep(40)
